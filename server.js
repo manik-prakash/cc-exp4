@@ -7,7 +7,7 @@ app.use(express.json());
 let todos = [];
 let idCounter = 1;
 
-app.get("/", (req, res) => {
+app.get("/home", (req, res) => {
   res.send("<h2>Simple Node.js Todo App is Running 🚀</h2>");
 });
 
